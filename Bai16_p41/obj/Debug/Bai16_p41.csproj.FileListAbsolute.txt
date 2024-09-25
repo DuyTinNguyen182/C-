@@ -1,0 +1,7 @@
+D:\Lập trình ứng dụng  WD\Bài tập Tài liệu\Bai16_p41\bin\Debug\Bai16_p41.exe.config
+D:\Lập trình ứng dụng  WD\Bài tập Tài liệu\Bai16_p41\bin\Debug\Bai16_p41.exe
+D:\Lập trình ứng dụng  WD\Bài tập Tài liệu\Bai16_p41\bin\Debug\Bai16_p41.pdb
+D:\Lập trình ứng dụng  WD\Bài tập Tài liệu\Bai16_p41\obj\Debug\Bai16_p41.csproj.AssemblyReference.cache
+D:\Lập trình ứng dụng  WD\Bài tập Tài liệu\Bai16_p41\obj\Debug\Bai16_p41.csproj.CoreCompileInputs.cache
+D:\Lập trình ứng dụng  WD\Bài tập Tài liệu\Bai16_p41\obj\Debug\Bai16_p41.exe
+D:\Lập trình ứng dụng  WD\Bài tập Tài liệu\Bai16_p41\obj\Debug\Bai16_p41.pdb
