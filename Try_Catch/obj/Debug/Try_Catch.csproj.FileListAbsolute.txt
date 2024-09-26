@@ -1,0 +1,6 @@
+D:\LTUDWD\26092024\Try_Catch\bin\Debug\Try_Catch.exe.config
+D:\LTUDWD\26092024\Try_Catch\bin\Debug\Try_Catch.exe
+D:\LTUDWD\26092024\Try_Catch\bin\Debug\Try_Catch.pdb
+D:\LTUDWD\26092024\Try_Catch\obj\Debug\Try_Catch.csprojResolveAssemblyReference.cache
+D:\LTUDWD\26092024\Try_Catch\obj\Debug\Try_Catch.exe
+D:\LTUDWD\26092024\Try_Catch\obj\Debug\Try_Catch.pdb

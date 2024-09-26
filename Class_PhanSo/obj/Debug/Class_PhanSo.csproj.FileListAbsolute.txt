@@ -1,0 +1,6 @@
+D:\LTUDWD\26092024\Class_PhanSo\bin\Debug\Class_PhanSo.exe.config
+D:\LTUDWD\26092024\Class_PhanSo\bin\Debug\Class_PhanSo.exe
+D:\LTUDWD\26092024\Class_PhanSo\bin\Debug\Class_PhanSo.pdb
+D:\LTUDWD\26092024\Class_PhanSo\obj\Debug\Class_PhanSo.csprojResolveAssemblyReference.cache
+D:\LTUDWD\26092024\Class_PhanSo\obj\Debug\Class_PhanSo.exe
+D:\LTUDWD\26092024\Class_PhanSo\obj\Debug\Class_PhanSo.pdb

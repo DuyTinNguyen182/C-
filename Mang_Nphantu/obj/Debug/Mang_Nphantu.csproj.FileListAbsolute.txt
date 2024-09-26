@@ -1,0 +1,6 @@
+D:\LTUDWD\26092024\Mang_Nphantu\bin\Debug\Mang_Nphantu.exe.config
+D:\LTUDWD\26092024\Mang_Nphantu\bin\Debug\Mang_Nphantu.exe
+D:\LTUDWD\26092024\Mang_Nphantu\bin\Debug\Mang_Nphantu.pdb
+D:\LTUDWD\26092024\Mang_Nphantu\obj\Debug\Mang_Nphantu.csprojResolveAssemblyReference.cache
+D:\LTUDWD\26092024\Mang_Nphantu\obj\Debug\Mang_Nphantu.exe
+D:\LTUDWD\26092024\Mang_Nphantu\obj\Debug\Mang_Nphantu.pdb
