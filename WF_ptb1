@@ -1,0 +1,21 @@
+        private void btthoat_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void bt2_Click(object sender, EventArgs e)
+        {
+            double a = double.Parse(textBox1.Text);
+            double b = double.Parse(textBox2.Text);
+            if (a == 0)
+            {
+                if (b == 0)
+                    textBox3.Text = "Vo so nghiem";
+                else
+                    textBox3.Text = "Vo nghiem";
+            }
+            else
+            {
+                textBox3.Text = (-b/a).ToString();
+            }
+        }
