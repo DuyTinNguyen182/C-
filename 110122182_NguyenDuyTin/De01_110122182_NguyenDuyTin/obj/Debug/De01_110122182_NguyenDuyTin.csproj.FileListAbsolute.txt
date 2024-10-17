@@ -1,0 +1,6 @@
+D:\110122182_NguyenDuyTin\De01_110122182_NguyenDuyTin\bin\Debug\De01_110122182_NguyenDuyTin.exe.config
+D:\110122182_NguyenDuyTin\De01_110122182_NguyenDuyTin\bin\Debug\De01_110122182_NguyenDuyTin.exe
+D:\110122182_NguyenDuyTin\De01_110122182_NguyenDuyTin\bin\Debug\De01_110122182_NguyenDuyTin.pdb
+D:\110122182_NguyenDuyTin\De01_110122182_NguyenDuyTin\obj\Debug\De01_110122182_NguyenDuyTin.csprojResolveAssemblyReference.cache
+D:\110122182_NguyenDuyTin\De01_110122182_NguyenDuyTin\obj\Debug\De01_110122182_NguyenDuyTin.exe
+D:\110122182_NguyenDuyTin\De01_110122182_NguyenDuyTin\obj\Debug\De01_110122182_NguyenDuyTin.pdb
