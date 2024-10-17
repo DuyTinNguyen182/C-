@@ -1,0 +1,9 @@
+D:\LTUDWD\Form\QuanLyNhanVien_IT\bin\Debug\QuanLyNhanVien_IT.exe.config
+D:\LTUDWD\Form\QuanLyNhanVien_IT\bin\Debug\QuanLyNhanVien_IT.exe
+D:\LTUDWD\Form\QuanLyNhanVien_IT\bin\Debug\QuanLyNhanVien_IT.pdb
+D:\LTUDWD\Form\QuanLyNhanVien_IT\obj\Debug\QuanLyNhanVien_IT.Form1.resources
+D:\LTUDWD\Form\QuanLyNhanVien_IT\obj\Debug\QuanLyNhanVien_IT.Properties.Resources.resources
+D:\LTUDWD\Form\QuanLyNhanVien_IT\obj\Debug\QuanLyNhanVien_IT.csproj.GenerateResource.Cache
+D:\LTUDWD\Form\QuanLyNhanVien_IT\obj\Debug\QuanLyNhanVien_IT.exe
+D:\LTUDWD\Form\QuanLyNhanVien_IT\obj\Debug\QuanLyNhanVien_IT.pdb
+D:\LTUDWD\Form\QuanLyNhanVien_IT\obj\Debug\QuanLyNhanVien_IT.csprojResolveAssemblyReference.cache
