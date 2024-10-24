@@ -49,6 +49,12 @@
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
+            this.MaNV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HoTen = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NamSinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GioiTinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DienThoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhanVien)).BeginInit();
             this.SuspendLayout();
             // 
@@ -86,8 +92,8 @@
             this.cmbGT.FormattingEnabled = true;
             this.cmbGT.Items.AddRange(new object[] {
             "Nam",
-            "Nu",
-            "Khac"});
+            "Nữ",
+            "Khác"});
             this.cmbGT.Location = new System.Drawing.Point(364, 105);
             this.cmbGT.Name = "cmbGT";
             this.cmbGT.Size = new System.Drawing.Size(121, 21);
@@ -233,10 +239,18 @@
             // 
             this.dgvNhanVien.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvNhanVien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvNhanVien.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.MaNV,
+            this.HoTen,
+            this.NamSinh,
+            this.GioiTinh,
+            this.DiaChi,
+            this.DienThoai});
             this.dgvNhanVien.Location = new System.Drawing.Point(28, 169);
             this.dgvNhanVien.Name = "dgvNhanVien";
             this.dgvNhanVien.Size = new System.Drawing.Size(768, 307);
             this.dgvNhanVien.TabIndex = 13;
+            this.dgvNhanVien.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvNhanVien_CellContentClick);
             // 
             // btnMa
             // 
@@ -247,6 +261,7 @@
             this.btnMa.TabIndex = 14;
             this.btnMa.Text = "Tim Ma";
             this.btnMa.UseVisualStyleBackColor = true;
+            this.btnMa.Click += new System.EventHandler(this.btnMa_Click);
             // 
             // btnTen
             // 
@@ -267,6 +282,7 @@
             this.btnSL.TabIndex = 16;
             this.btnSL.Text = "Dem SL";
             this.btnSL.UseVisualStyleBackColor = true;
+            this.btnSL.Click += new System.EventHandler(this.btnSL_Click);
             // 
             // btnThem
             // 
@@ -277,6 +293,7 @@
             this.btnThem.TabIndex = 17;
             this.btnThem.Text = "Them";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnXoa
             // 
@@ -287,6 +304,7 @@
             this.btnXoa.TabIndex = 18;
             this.btnXoa.Text = "Xoa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnSua
             // 
@@ -297,6 +315,7 @@
             this.btnSua.TabIndex = 19;
             this.btnSua.Text = "Sua";
             this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnThoat
             // 
@@ -308,6 +327,42 @@
             this.btnThoat.Text = "Thoat";
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+            // 
+            // MaNV
+            // 
+            this.MaNV.DataPropertyName = "MaNV";
+            this.MaNV.HeaderText = "Mã NV";
+            this.MaNV.Name = "MaNV";
+            // 
+            // HoTen
+            // 
+            this.HoTen.DataPropertyName = "HoTen";
+            this.HoTen.HeaderText = "Họ Tên";
+            this.HoTen.Name = "HoTen";
+            // 
+            // NamSinh
+            // 
+            this.NamSinh.DataPropertyName = "NamSinh";
+            this.NamSinh.HeaderText = "Năm Sinh";
+            this.NamSinh.Name = "NamSinh";
+            // 
+            // GioiTinh
+            // 
+            this.GioiTinh.DataPropertyName = "GioiTinh";
+            this.GioiTinh.HeaderText = "Giới Tính";
+            this.GioiTinh.Name = "GioiTinh";
+            // 
+            // DiaChi
+            // 
+            this.DiaChi.DataPropertyName = "DiaChi";
+            this.DiaChi.HeaderText = "Địa Chỉ";
+            this.DiaChi.Name = "DiaChi";
+            // 
+            // DienThoai
+            // 
+            this.DienThoai.DataPropertyName = "DienThoai";
+            this.DienThoai.HeaderText = "Điện Thoại";
+            this.DienThoai.Name = "DienThoai";
             // 
             // Form1
             // 
@@ -336,6 +391,7 @@
             this.Controls.Add(this.txtHoTen);
             this.Controls.Add(this.txtMaNV);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhanVien)).EndInit();
@@ -367,6 +423,12 @@
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaNV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HoTen;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NamSinh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn GioiTinh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DiaChi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DienThoai;
     }
 }
 
